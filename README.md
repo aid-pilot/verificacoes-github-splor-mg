@@ -1,3 +1,4 @@
+
 # Verificações GitHub SPLOR-MG
 
 Scripts para extrair e sincronizar informações de organizações GitHub.
@@ -38,12 +39,11 @@ poetry run python main.py --all
 
 ```bash
 poetry run python main.py --sync-repos --no-delete-extras
-```
+
 
 ## Configuração
 
 1. **Criar arquivo `.env`** na raiz do projeto:
-
 ```bash
 GITHUB_TOKEN=seu_token_aqui
 GITHUB_ORG=nome_da_organizacao
